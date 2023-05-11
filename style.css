@@ -2,19 +2,15 @@
     --white: #F4F4F6;
     --black: #181a1b;
 }
-html {
-    background-color: var(--black);
-    color: var(--white)
-}
+
 code.discord {
-    background-color: hwb(202 57% 0%);
-    color: var(--black);
+    background-color: #4f4f4f;
 }
 
 #form {
     padding: 0.5em;
     width: 25em;
-    border: white 2px;
+    border: rgb(114,123,127) 2px;
     border-style: solid; 
 }
 
@@ -48,25 +44,20 @@ code.discord {
     transform: translate(-50%, -50%);
   }
 
-  html {
-    background-color: #181a1b !important;
+html {
+    background-color: rgb(29,32,34) !important;
 }
 html {
     color-scheme: dark !important;
 }
 html, body {
-    background-color: #181a1b;
+    background-color: rgb(29,32,34);
 }
 html, body {
-    border-color: #736b5e;
+    border-color: rgb(114,123,127);
     color: #e8e6e3;
 }
-a {
-    color: #3391ff;
-}
-table {
-    border-color: #545b5e;
-}
+
 ::placeholder {
     color: #b2aba1;
 }
