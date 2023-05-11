@@ -121,4 +121,5 @@ workButton.onclick = function () {
       alert("not implemented");
       break;
   }
-};
+}
+console.log("thien beo mup")
