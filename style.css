@@ -1,0 +1,41 @@
+:root {
+    --white: #F4F4F6;
+    --black: #131200;
+}
+html {
+    background-color: var(--black);
+    color: var(--white)
+}
+code.discord {
+    background-color: hwb(202 57% 0%);
+    color: var(--black);
+}
+
+#form {
+    padding: 0.5em;
+    width: 50%;
+    border: white 2px;
+    border-style: solid; 
+}
+
+#form > select, #form > input {
+    float: right;
+    width: 50%;
+}
+
+#form > textarea {
+    width: 100%;
+    margin: auto;
+}
+
+#work {
+    align-items: center;
+}
+
+#copycode {
+    cursor: pointer;
+}
+
+#copycode:hover {
+    background-color: darkturquoise;
+}
